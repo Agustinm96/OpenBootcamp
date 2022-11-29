@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    font-size: 4rem;
+}
+
+p{
+    color: black;
+    font-size: 2rem;
+}
+
+/* @media estilos van a ser afectados solo para dispositivos que se especifiquen ahi*/
+
+@media screen and (max-width: 576px){ /*cuando imprime (con el print no el screen)cambia el color del h1 a azul*/
+    h1{
+        color: blue;
+    }p{
+        color: cyan;
+    }
+}
+
+@media (max-width: 995px){ /*cuando imprime (con el print no el screen)cambia el color del h1 a azul*/
+    h1{
+        color: green;
+    }
+}
+
+/* Orientacion de la pantalla;:
+portrait : vertical
+landscape: horizontal*/
+
+
+@media (orientation: landscape){ 
+    p{
+        color: brown;
+    }
+}
+
+@media (orientation: landscape) and (min-height: 400px){ 
+    p{
+        color: brown;
+    }
+}

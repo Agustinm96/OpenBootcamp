@@ -1,0 +1,62 @@
+body{
+    padding: 20px;
+    margin: 0;
+}
+/*
+.escenario{
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.escenario-1{
+    width: 100%;
+}
+
+.escenario-2{
+    width: 50%;
+}
+
+.px{
+    background-color: green;
+    width: 200px;
+}
+
+.porcentaje{
+    background-color: red;
+    width: 50%; /*mitad del padre*//*
+}
+
+.view{
+    background-color: yellow;
+    width: 50vw; /*vw = view width, es decir, al ancho de la pantalla */
+/*} /*vh = view height, en relacion a la altura de la pantalla*/
+
+/*para crear diseño responsive no solo centrarse en los px ni el viewport (pantalla)
+sino toda la experiencia, herramienta en el google->inspeccionar, icono de tableta/celular*/
+/*se utiliza otras unidades para diseño responsive, em, relacionadas con el tamaño de fuente
+rm.*/
+
+.escenario{
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 32px;
+}
+
+.escenario-1{
+    font-size: 32px;
+}
+
+.escenario-2{
+    font-size: 16px;
+}
+
+.em{
+    font-size: 2em; /*em hace referencua al tamaño de fuente de su contenedor*/
+}
+
+.rem{
+    font-size: 2rem;/*rem hace referencua al tamaño de fuente de la raiz*/
+}
+
+
